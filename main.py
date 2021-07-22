@@ -1,4 +1,5 @@
 from chatterbot import ChatBot
+
 from chatterbot.trainers import ListTrainer
 
 bot = ChatBot("My Bot")
@@ -15,3 +16,13 @@ conv = [
     'I live in Bokaro steel city'
 
 ]
+
+trainer=ListTrainer(bot)
+
+# Now Training the bot with the help of trainer 
+
+trainer.train(conv)
+
+answer=bot.get_response("what is your name?")
+print(answer)
+
