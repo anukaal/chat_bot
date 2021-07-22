@@ -23,6 +23,15 @@ trainer=ListTrainer(bot)
 
 trainer.train(conv)
 
-answer=bot.get_response("what is your name?")
-print(answer)
+# answer=bot.get_response("what is your name?")
+# print(answer)
+
+print("Talk to bot ")
+while True:
+    my_question=input()
+    if my_question=='exit':
+        break
+    answer=bot.get_response(my_question)
+    print("bot : ",answer)
+
 
