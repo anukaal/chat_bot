@@ -2,6 +2,8 @@ from chatterbot import ChatBot
 
 from chatterbot.trainers import ListTrainer
 
+from tkinter import *
+
 bot = ChatBot("My Bot")
 
 conv = [
@@ -26,12 +28,16 @@ trainer.train(conv)
 # answer=bot.get_response("what is your name?")
 # print(answer)
 
-print("Talk to bot ")
-while True:
-    my_question=input()
-    if my_question=='exit':
-        break
-    answer=bot.get_response(my_question)
-    print("bot : ",answer)
+# print("Talk to bot ")
+# while True:
+#     my_question=input()
+#     if my_question=='exit':
+#         break
+#     answer=bot.get_response(my_question)
+#     print("bot : ",answer)
 
 
+main = Tk()
+
+
+main.mainloop()
