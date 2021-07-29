@@ -42,6 +42,8 @@ main = Tk()
 main.geometry("650x650")
 main.title("Chat BOT")
 
+image=PhotoImage(file="bot_img.png")
+
 
 
 main.mainloop()
