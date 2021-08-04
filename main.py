@@ -47,6 +47,18 @@ image_given=PhotoImage(file="bot2.png")
 photoL = Label(main,image=image_given)
 photoL.pack(pady=20)
 
+frame=Frame(main)
+
+scroll=Scrollbar(frame)
+
+messages=Listbox(frame , width=90 , height=20)
+
+scroll.pack(side=RIGHT , fill=Y)
+
+messages.pack(side=LEFT , fill=BOTH , pady=10)
+frame.pack()
+
+
 
 
 main.mainloop()
