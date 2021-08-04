@@ -42,10 +42,10 @@ main = Tk()
 main.geometry("650x650")
 main.title("Chat BOT")
 
-image_given=PhotoImage(file="bot1.png")
+image_given=PhotoImage(file="bot2.png")
 
 photoL = Label(main,image=image_given)
-photoL.pack(pady=5)
+photoL.pack(pady=20)
 
 
 
