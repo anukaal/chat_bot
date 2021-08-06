@@ -51,13 +51,20 @@ frame=Frame(main)
 
 scroll=Scrollbar(frame)
 
-messages=Listbox(frame , width=90 , height=20)
+messages=Listbox(frame , width=70 , height=20)
 
 scroll.pack(side=RIGHT , fill=Y)
+
+
 
 messages.pack(side=LEFT , fill=BOTH , pady=10)
 frame.pack()
 
+# making creating text filed !!!
+
+textField = Entry(main , font=("Dancing Script", 10))
+
+textField.pack(fill=X,pady=10)
 
 
 
