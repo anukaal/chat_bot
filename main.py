@@ -47,6 +47,9 @@ image_given=PhotoImage(file="bot2.png")
 photoL = Label(main,image=image_given)
 photoL.pack(pady=20)
 
+def ask():
+    print("clicked")
+
 frame=Frame(main)
 
 scroll=Scrollbar(frame)
