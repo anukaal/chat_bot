@@ -66,7 +66,9 @@ textField = Entry(main , font=("Dancing Script", 10))
 
 textField.pack(fill=X,pady=10)
 
-button=Button(main,text="pucheye" , font=("Verana" , 10))
+button=Button(main,text="pucheye" , font=("Verana" , 10) , command=ask)
+
+button.pack()
 
 
 
