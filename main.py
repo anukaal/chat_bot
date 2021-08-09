@@ -65,11 +65,11 @@ frame.pack()
 
 # making creating text filed !!!
 
-textField = Entry(main , font=("Dancing Script", 10))
+textField = Entry(main , font=("Dancing Script", 20))
 
 textField.pack(fill=X,pady=10)
 
-button=Button(main,text="pucheye" , font=("Verana" , 10) , command=ask)
+button=Button(main,text="Pucheye" , font=("Verana" , 10) , command=ask)
 
 button.pack()
 
