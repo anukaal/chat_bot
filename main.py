@@ -40,9 +40,9 @@ bot = ChatBot("My Bot")
 main = Tk()
 
 main.geometry("650x650")
-main.title("Chat BOT")
+main.title("CHAT BOT")
 
-image_given=PhotoImage(file="bot_image/final_bot.png")
+image_given=PhotoImage(file="bot_image/bot_img.png")
 
 photoL = Label(main,image=image_given)
 photoL.pack(pady=20)
