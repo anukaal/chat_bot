@@ -6,24 +6,24 @@ from tkinter import *
 
 bot = ChatBot("My Bot")
 
-# conv = [
-#     'hello',
-#     'Hi there',
-#     'What is your name?',
-#     'My name is bot , made by anukaal',
-#     'How are you?',
-#     'I am good',
-#     'Thanku',
-#     'In which city do you live',
-#     'I live in Bokaro steel city'
+conv = [
+    'hello',
+    'Hi there',
+    'What is your name?',
+    'My name is bot , made by anukaal',
+    'How are you?',
+    'I am good',
+    'Thanku',
+    'In which city do you live',
+    'I live in Bokaro steel city'
 
-# ]
+]
 
-# trainer=ListTrainer(bot)
+trainer=ListTrainer(bot)
 
  # Now Training the bot with the help of trainer 
 
-# trainer.train(conv)
+trainer.train(conv)
 
 # answer=bot.get_response("what is your name?")
 # print(answer)
@@ -48,7 +48,14 @@ photoL = Label(main,image=image_given)
 photoL.pack(pady=20)
 
 def ask():
-    print("clicked")
+    query = textField.get()
+    ans_from_bot=bot.get_response(query)
+    messages.insert(END, "you : " + query)
+    messages.insert(END, "Bot : " + ans_from_bot)
+    textField.delete(0 , END)
+
+
+
 
 frame=Frame(main)
 
