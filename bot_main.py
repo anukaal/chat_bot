@@ -6,6 +6,8 @@ from tkinter import *
 
 bot = ChatBot("My Bot")
 
+# some conversation 
+
 conv = [
     'hello',
     'Hi there',
@@ -51,7 +53,8 @@ def ask():
     query = textField.get()
     ans_from_bot=bot.get_response(query)
     messages.insert(END, "you : " + query)
-    messages.insert(END, "Bot : " + ans_from_bot)
+    
+    messages.insert(END, "Bot : " + str(ans_from_bot))
     textField.delete(0 , END)
 
 
