@@ -53,7 +53,7 @@ def ask():
     query = textField.get()
     ans_from_bot=bot.get_response(query)
     messages.insert(END, "you : " + query)
-    
+    print(type(ans_from_bot))
     messages.insert(END, "Bot : " + str(ans_from_bot))
     textField.delete(0 , END)
 
