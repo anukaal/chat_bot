@@ -84,5 +84,13 @@ button=Button(main,text="Pucheye" , font=("Verana" , 10) , command=ask)
 button.pack()
 
 
+# making a function
+
+def enter_a_function():
+    button.invoke
+
+
+
+
 
 main.mainloop()
