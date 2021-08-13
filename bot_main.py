@@ -86,10 +86,13 @@ button.pack()
 
 # making a function
 
-def enter_a_function():
+def enter_a_function(at_any_event):
     button.invoke()
 
 
+# moving to bind main window through enter key !!!!
+
+main.bind('<Return>' , enter_a_function)
 
 
 
