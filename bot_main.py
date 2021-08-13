@@ -49,6 +49,8 @@ image_given=PhotoImage(file="bot_image/bot_img.png")
 photoL = Label(main,image=image_given)
 photoL.pack(pady=20)
 
+# making a def for getting the msg from the user to the bot !!
+
 def ask():
     query = textField.get()
     ans_from_bot=bot.get_response(query)
