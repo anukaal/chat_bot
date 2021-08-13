@@ -87,7 +87,7 @@ button.pack()
 # making a function
 
 def enter_a_function():
-    button.invoke
+    button.invoke()
 
 
 
