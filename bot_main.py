@@ -1,3 +1,10 @@
+
+# Made by Anurag
+# Chat Bot for IT complaint 
+
+
+# Libraries
+
 from chatterbot import ChatBot
 
 from chatterbot.trainers import ListTrainer
