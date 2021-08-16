@@ -73,7 +73,7 @@ frame=Frame(main)
 
 scroll=Scrollbar(frame)
 
-messages=Listbox(frame , width=70 , height=20)
+messages=Listbox(frame , width=70 , height=20 , yscrollcommand=scroll.set)
 
 scroll.pack(side=RIGHT , fill=Y)
 
