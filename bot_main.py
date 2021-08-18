@@ -1,8 +1,6 @@
 
 # Made by Anurag
 # Chat Bot for IT complaint 
-
-
 # Libraries
 
 from chatterbot import ChatBot
@@ -65,9 +63,7 @@ def ask():
     print(type(ans_from_bot))
     messages.insert(END, "Bot : " + str(ans_from_bot))
     textField.delete(0 , END)
-
-
-
+    messages.yview(END)
 
 frame=Frame(main)
 
@@ -76,8 +72,6 @@ scroll=Scrollbar(frame)
 messages=Listbox(frame , width=70 , height=20 , yscrollcommand=scroll.set)
 
 scroll.pack(side=RIGHT , fill=Y)
-
-
 
 messages.pack(side=LEFT , fill=BOTH , pady=10)
 frame.pack()
@@ -91,8 +85,6 @@ textField.pack(fill=X,pady=10)
 button=Button(main,text="Pucheye" , font=("Verana" , 10) , command=ask)
 
 button.pack()
-
-
 # making a function
 
 def enter_a_function(at_any_event):
@@ -102,7 +94,4 @@ def enter_a_function(at_any_event):
 # moving to bind main window through enter key !!!!
 
 main.bind('<Return>' , enter_a_function)
-
-
-
 main.mainloop()
