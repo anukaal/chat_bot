@@ -12,7 +12,13 @@ from chatterbot.trainers import ListTrainer
 
 from tkinter import *
 
-import pyttx3 as pp
+import pyttsx3 as pp
+
+engine=pp.init()
+
+engine.getProperty("Voices")
+
+
 
 
 
