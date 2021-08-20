@@ -16,7 +16,9 @@ import pyttsx3 as pp
 
 engine=pp.init()
 
-engine.getProperty("Voices")
+voices=engine.getProperty("Voices")
+
+print(voices)
 
 
 
