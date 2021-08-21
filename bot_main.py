@@ -21,6 +21,9 @@ voices=engine.getProperty("Voices")
 print(voices)
 
 
+engine.setProperty('voices' , voices[1].id)
+
+
 
 
 
