@@ -16,12 +16,12 @@ import pyttsx3 as pp
 
 engine=pp.init()
 
-voices=engine.getProperty("Voices")
+voices=engine.getProperty("voices")
 
 print(voices)
 
 
-engine.setProperty('voices' , voices[1].id)
+engine.setProperty('voice' , voices[1].id)
 
 
 def speak(sentence):
@@ -87,7 +87,7 @@ def ask():
     messages.insert(END, "Bot : " + str(ans_from_bot))
 
     speak(ans_from_bot)
-    
+
     textField.delete(0 , END)
     messages.yview(END)
 
