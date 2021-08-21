@@ -24,11 +24,15 @@ print(voices)
 engine.setProperty('voices' , voices[1].id)
 
 
+def speak(sentence):
+    engine.say(sentence)
+    engine.runAndWait()
 
 
 
 
 bot = ChatBot("My Bot")
+
 
 # some conversation 
 
@@ -81,6 +85,9 @@ def ask():
     messages.insert(END, "you : " + query)
     print(type(ans_from_bot))
     messages.insert(END, "Bot : " + str(ans_from_bot))
+
+    speak(ans_from_bot)
+    
     textField.delete(0 , END)
     messages.yview(END)
 
