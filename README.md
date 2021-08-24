@@ -5,3 +5,6 @@ A chatbot interacts on a format similar to instant messaging. By artificially re
 
 * While a bot is a computer’s ability to understand human speech or text short for chat robot. A chatbot is merely a computer program that fundamentally simulates human conversations. It allows a form of interaction between a human and a machine the communication, which happens via messages or voice command.
 
+
+* A chatbot is programmed to work independently from a human operator. It can answer questions formulated to it in natural language and respond like a real person. It provides responses based on a combination of predefined scripts and machine learning applications.
+
