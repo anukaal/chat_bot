@@ -8,3 +8,5 @@ A chatbot interacts on a format similar to instant messaging. By artificially re
 
 * A chatbot is programmed to work independently from a human operator. It can answer questions formulated to it in natural language and respond like a real person. It provides responses based on a combination of predefined scripts and machine learning applications.
 
+* When it is asked a question, the chatbot will respond based on the knowledge database available to it at that point in time. If the conversation introduces a concept it is not programmed to understand, it will either deflect the conversation or potentially pass the communication to a human operator. Either way, it will also learn from that interaction as well as from future interactions. Thus, the chatbot will gradually grow in scope and gain relevance.
+
