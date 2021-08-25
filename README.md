@@ -10,3 +10,14 @@ A chatbot interacts on a format similar to instant messaging. By artificially re
 
 * When it is asked a question, the chatbot will respond based on the knowledge database available to it at that point in time. If the conversation introduces a concept it is not programmed to understand, it will either deflect the conversation or potentially pass the communication to a human operator. Either way, it will also learn from that interaction as well as from future interactions. Thus, the chatbot will gradually grow in scope and gain relevance.
 
+
+## Know About ChatterBot 
+
+* ChatterBot is a Python library that makes it easy to generate automated responses to a user’s input. ChatterBot uses a selection of machine learning algorithms to produce different types of responses. This makes it easy for developers to create chat bots and automate conversations with users. 
+
+
+
+
+<img width="696" alt="Screenshot 2021-08-25 at 9 15 35 PM" src="https://user-images.githubusercontent.com/53907493/130822463-4f7a2c4d-5d0c-456e-ab4d-b92f8f6b8c26.png">
+
+
