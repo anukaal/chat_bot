@@ -32,3 +32,9 @@ user: You're welcome.
 bot:  Do you like hats?
 
 ```
+
+
+## Language Independence
+
+The language independent design of ChatterBot allows it to be trained to speak any language. Additionally, the machine-learning nature of ChatterBot allows an agent instance to improve it’s own knowledge of possible responses as it interacts with humans and other sources of informative data.
+
