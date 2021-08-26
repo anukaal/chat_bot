@@ -18,7 +18,7 @@ A chatbot interacts on a format similar to instant messaging. By artificially re
 
 
 
-<img width="696" alt="Screenshot 2021-08-25 at 9 15 35 PM" src="https://user-images.githubusercontent.com/53907493/130822463-4f7a2c4d-5d0c-456e-ab4d-b92f8f6b8c26.png">
+#### <img width="696" alt="Screenshot 2021-08-25 at 9 15 35 PM" src="https://user-images.githubusercontent.com/53907493/130822463-4f7a2c4d-5d0c-456e-ab4d-b92f8f6b8c26.png">
 
 
 
