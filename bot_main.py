@@ -12,16 +12,18 @@ from chatterbot.trainers import ListTrainer
 
 from tkinter import *
 
-import pyttsx3 as pp
+## using this library for speak recognition
 
-engine=pp.init()
+# import pyttsx3 as pp
 
-voices=engine.getProperty("voices")
+# engine=pp.init()
 
-print(voices)
+# voices=engine.getProperty("voices")
+
+# print(voices)
 
 
-engine.setProperty('voice' , voices[1].id)
+# engine.setProperty('voice' , voices[1].id)
 
 
 # def speak(sentence):
