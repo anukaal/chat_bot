@@ -26,10 +26,10 @@ A chatbot interacts on a format similar to instant messaging. By artificially re
 ## An example of typical input would be something like this:
 
 ```
-user: Good morning! How are you doing?
-bot:  I am doing very well, thank you for asking.
+user: Good morning 
+bot:  How are you ?
 user: You're welcome.
-bot:  Do you like hats?
+bot:  What is your name ?
 
 ```
 
