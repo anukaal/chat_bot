@@ -1,7 +1,7 @@
 
 # Made by Anurag
 
-#chatbox using speak recognition 
+#chatbot using speak recognition 
 # Chat Bot for IT complaint 
 
 # Libraries
